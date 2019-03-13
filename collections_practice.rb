@@ -41,7 +41,8 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  array.each_with_index.collect {|element,idex| element
+  array.each_with_index.collect {|element,idex| puts"#{element}s"} 
+end 
   
 
   

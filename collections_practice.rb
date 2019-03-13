@@ -44,6 +44,7 @@ def add_s(array)
   array.each_with_index.collect {|element,index| 
   unless if element==element index (1)
    element="#{element}s"} 
+ end 
 end 
 
   
